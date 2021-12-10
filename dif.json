@@ -1,0 +1,11 @@
+{
+    "direccion" : "abundio 25",
+    "descripcion" : "esta es la descripcion",
+    "fechaPublicacion" : "10/21/2021",
+    "fechaVencimiento" : "10/16/2021",
+    "cuota" : "182",
+    "image" : "https://www.olondriz.com/wp-content/uploads/2020/04/ambar-perrito-1.jpg",
+    "subCategoria": "Salud",
+    "fechaCreacion" : "10/21/2020",
+    "fechaModificacion" : "10/10/2021"
+}

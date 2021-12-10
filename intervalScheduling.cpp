@@ -1,5 +1,10 @@
 /*
 INTERVAL SCHEDULING
+Find the largest subnet of mutually compatible jobs and returns their index.
+
+Fernanda Nava Moya - A01023896
+/*
+INTERVAL SCHEDULING
 Find max (largest) subnet of mutually compatible jobs. 
 Cual es la mayor cantidad de tareas que yo puedo hacer en este tiempo.
 */
@@ -11,6 +16,7 @@ Cual es la mayor cantidad de tareas que yo puedo hacer en este tiempo.
 
 using namespace std;
 
+// Function that sorts by earlist finished time
 bool sortByTime (const tuple<string, int, int>& a, const tuple<string, int, int>& b) {
     return (get<2>(a) < get<2>(b));
 }
